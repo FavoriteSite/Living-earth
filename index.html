@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/iconsfont.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>LIVING-EARTH</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+<header class="header">
+  <div class="header__container container">
+    <div class="header__logo logo ibg">
+      <img src="img/logo.png" alt="logo">
+    </div>
+    <nav class="header__menu menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="#" data-goto=".page__about" class="menu__link">О компании</a></li>
+        <li class="menu__item"><a href="#" data-goto=".page__products" class="menu__link">Продукция</a></li>
+        <li class="menu__item"><a href="#" data-goto=".page__documents" class="menu__link">Документы</a></li>
+        <li class="menu__item"><a href="#" data-goto=".page__news" class="menu__link">Новости</a></li>
+        <li class="menu__item"><a href="#" data-goto=".page__cooperation" class="menu__link">Сотрудничество</a></li>
+        <li class="menu__item"><a href="#" data-goto=".page__contacts" class="menu__link">Контакты</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="header__entrance entrance">
+      <a href="#popup-entrance" class="entrance__link popup-link">
+        <span class="icon-entrance but"></span>ВХОД</a>
+    </div>
+    <div class="header__but">
+      <button type="button" class="icon-menu"><span></span></button>
+      <p class="icon-text">МЕНЮ</p>
+    </div>
+
+
+
+  </div>
+</header>
+
+
+<div class="container">
+  <div id="popup-entrance" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="" class="popup__close close-popup">X</a>
+
+        <h5 class="entrance-title title">ВХОД В ВАШ КАБИНЕТ</h5>
+        <div class="entrance-subtitle">Войдите в свой аккаунт</div>
+
+        <form action="#" method="post" class="entrance-form" name="main-w">
+
+          <div class="entrance-input-wrap">
+            <p class="entrance-name-input">E-mail</p>
+            <input type="email" class="entrance-input" name="entranceEmail">
+          </div>
+
+          <div class="entrance-input-wrap">
+            <p class="entrance-name-input">Пароль</p>
+            <input type="password" class="entrance-input" name="entrancePassword">
+          </div>
+
+          <label for="entrance-check" class="entrance-input-checkbox-wrap">
+            <input type="checkbox" class="entrance-input-checkxbox-hidden check__input" id="entrance-check"
+              name="entranceCheckxbox">
+            <span class="entrance-input-checkxbox"></span>
+            <p class="entrance-checkbox-remember">Запомнить меня</p>
+          </label>
+
+          <a href="" class="entrance-button but" type="submit" name="entranceButton">ВОЙТИ</a>
+
+
+        </form>
+
+        <a href="#" class="entrance-lost-password">Забыли пароль?</a>
+        <div class="new-account">
+          <p class="new-account__no">Нет аккаунта?</p>
+          <a href="" class="new-account__register">Зарегистрируйтесь</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<main class="page">
+
+  <section class="page__partner partner">
+    <div class="partner__body">
+      <h3 class="partner__title">ЖИВАЯ ЗЕМЛЯ</h3>
+      <p class="partner__text">производит и реализует органоминеральные пищевые продукты, удобрения и корма для животных
+        на основе сапропеля из озера с содержанием органики 90%</p>
+      <div href="#" class="partner__link but">СТАТЬ ПАРТНЕРОМ</div>
+      <div class="partner__logo ibg">
+        <img src="img/page__partner/logo.png" alt="logo">
+      </div>
+    </div>
+    <div class="partner__instrument-03 instrument">
+      <img src="img/page__partner/03.png" alt="instrument">
+    </div>
+    <div class="partner__instrument-04 instrument">
+      <img src="img/page__partner/04.png" alt="instrument">
+    </div>
+    <div class="partner__img">
+      <img src="img/page__partner/background.jpg" alt="background">
+    </div>
+  </section>
+
+
+  <section class="page__about about">
+    <div class="line"></div>
+    <div class="about__container container">
+      <h4 class="about__title title">О КОМПАНИИ</h4>
+      <div class="about__company">
+        <img class="about__img" src="img/page__about/company.png" alt="Компания">
+        <div class="about__description description">
+          <h4 class="description__title title">О КОМПАНИИ</h4>
+          <p class="description__subtitle">Общество с ограниченной ответственностью «Живая земля"</p>
+          <p class="description__text">
+            Дата регистрации: 10 августа 2021 <br>
+            ИНН: 0268094281<br>
+            ОГРН:1210200040357<br>
+            Адрес: Республика Башкортостан, г. Стерлитамак
+          </p>
+        </div>
+        <div class="about__card card">
+          <div><img class="card__logo" src="img/logo.png" alt="logo"></div>
+          <div class="card__block"> <img class="card__element" src="img/page__about/card.png" alt="Карта партнера">
+          </div>
+          <a class="card__print">Скачать Карта партнера</a>
+        </div>
+      </div>
+      <div class="about__person person">
+        <h4 class="person__title title">ОСНОВАТЕЛИ</h4>
+        <div class="person__cards">
+          <div class="person__card _anim-items _anim-no-hide">
+            <img src="img/page__about/01.png" alt="основатель" class="person__img">
+            <div class="person__name">Кошелев Геннадий Геннадьевич</div>
+            <p class="person__text">Ген. Директор ООО «Живая Земля»
+              Учредитель Агентства Развития
+              Туризма «КАРКАДАНН»
+              Учредитель Экоотеля «Торатау»
+              Заместитель Председателя Совета Ассоциации
+              Предпренимателей г. Стерлитамак
+              Вице-президент Профессиональной
+              мед.
+              Ассоциации «АПОДИТ»</p>
+          </div>
+          <div class="person__card _anim-items _anim-no-hide">
+            <img src="img/page__about/02.png" alt="основатель" class="person__img">
+            <div class="person__name">Максютов Руслан Рамилевич</div>
+            <p class="person__text">Президент Профессиональной Медицинской
+              Ассоциации «АПОДИТ»
+              Генеральный директор Клиники
+              традиционной
+              и альтернативной медицины «АПОДИТ КЛИНИКА»</p>
+          </div>
+          <div class="person__card _anim-items _anim-no-hide">
+            <img src="img/page__about/03.png" alt="основатель" class="person__img">
+            <div class="person__name">Плеханов Вячеслав Григорьевич</div>
+            <p class="person__text">Верховный атаман Казачьего природоохранного
+              союза,
+              Генерал-полковник
+              Официальный долларовый миллионер
+              Эстонии во времена СССР</p>
+          </div>
+          <div class="person__card _anim-items _anim-no-hide">
+            <img src="img/page__about/04.png" alt="основатель" class="person__img">
+            <div class="person__name">Ларина Анна Александровна</div>
+            <p class="person__text">Директор Агентства по развитию
+              туризма «Каркаданн»
+              Председатель «Союза Успешных Женщин»
+              Республики Башкортостан
+              Учредитель эко-спа комплекса «ШИШКИ»
+              Практикующий психолог, бизнес тренер, предприниматель, общественник</p>
+          </div>
+          <div class="person__card _anim-items _anim-no-hide">
+            <img src="img/page__about/05.png" alt="основатель" class="person__img">
+            <div class="person__name">Сайфуллин Олег Анатольевич</div>
+            <p class="person__text">Директор по развитию ООО «Живая земля»
+              Основатель Академии «ПРОБИЗНЕС»
+              Опыт в построении Бизнеса 12 лет</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="about__img-element-left" src="img/page__about/element-left.png" alt="рисунок">
+    <img class="about__img-element-right" src="img/page__about/element-right.png" alt="рисунок">
+    <img class="about__img-element-logo" src="img/page__about/logo.png" alt="рисунок">
+    <div class="line"></div>
+  </section>
+
+  <section class="page__products products">
+    <div class="products__container container">
+      <h4 class="products__title title">ПРОДУКЦИЯ</h4>
+
+      <div class="products__main main">
+        <div class="main__description">
+          <p class="main__text">Компания «Живая земля»
+            - производит и реализует органоминеральные пищевые продукты,
+            удобрения и корма для животных на основе сапропеля из озера с содержанием органики 90%.</p>
+          <p class="main__text color-golden">
+            Продуктовая линейка постоянно увеличивается и ассортимент расширяется!</p>
+        </div>
+        <div class="main__img">
+          <div class="img">
+            <img class="img__frame" src="img/page__products/frame.png" alt="рамка">
+            <img class="img__01" src="img/page__products/01.png" alt="Деотомея">
+            <img class="img__02" src="img/page__products/02.png" alt="Удобрение «Живая Земля»">
+            <img class="img__03" src="img/page__products/03.png" alt="Черный мед">
+            <img class="img__04" src="img/page__products/04.png" alt="Супань">
+          </div>
+          <p class="main__text-img color-golden"> Мы заботимся о вашем состоянии! </p>
+        </div>
+      </div>
+
+
+      <div class="products__honey honey">
+        <div class="honey__product product">
+
+          <div class="product__element">
+            <h3 class="product__title title">Чёрный мёд</h3>
+            <div class="product__img">
+              <img class="product__frame" src="img/page__products/frame.png" alt="Черный мед">
+              <img class="product__black-honey" src="img/page__products/3.png" alt="Черный мед">
+            </div>
+            <div class="product__signature">Не является лекарственным средством, бадом.</div>
+            <a href="#" class="product__but but">ЗАКАЗАТЬ</a>
+          </div>
+
+
+          <div class="product__description">
+
+            <h5 class="product__subtitle">Фульво Гуминовый Комплекс «Чёрный мёд» как источник здоровья</h5>
+            <p class="product__text">Фульвовые и гуминовые кислоты, которые входят в состав комплекса, содержат 74
+              органических минерала,
+              10 витаминов и 18 аминокислот. Они поглощаются растениями из почв, затем кислоты попадают к животным
+              из растительной пищи, и точно также к людям — из растительной или животной пищи.</p>
+            <div class="addition__button addition__button-honey">
+              <a href="#" class="addition__but" data-click=".item-4">ещё</a>
+            </div>
+            <p class="product__text item-4">В наше время химизация сельского хозяйства и животноводства, а также
+              появление
+              технологий консервации
+              и переработки пищевых продуктов, привели к огромному дефициту витаминов, макро и микроэлементов в
+              продуктах питания. Современная еда стала «пищей пустых калорий». Кладезь витаминов, овощи и фрукты,
+              стали похожи на муляжи, большинство продуктов питания, продукты животного происхождения обеднели и не
+              содержат многие полезные элементы, так как выращены по сути искусственным путем. Это приводит к
+              образованию большого дефицита полезных веществ, так необходимых для нашей полноценной жизни.</p>
+            <p class="product__text item-4">Широко известный журнал научных и медицинских исследований «HEALTH ALERT»
+              назвал
+              фульвовую кислоту
+              недостающим звеном пищевой цепи для современного человека. ФГК образует идеальный баланс из более
+              ста различных биологически активных минералов и полезных веществ, которых не хватает организму сегодня.
+            </p>
+          </div>
+
+        </div>
+
+
+
+        <div class="honey__addition addition">
+
+          <div class="addition__content">
+            <h3 class="addition__title title">Уникальные преимущества</h3>
+            <div class="addition__items">
+
+              <div class="addition__item">
+                <div class="addition__img">
+                  <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                  <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                </div>
+                <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+                <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+              </div>
+
+              <div class="addition__item">
+                <div class="addition__img">
+                  <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                  <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                </div>
+                <div class="addition__subtitle">усиливает имунный ответ организма</div>
+                <p class="addition__text">снижает протеазную активность, подавляя активность раковых клеток</p>
+              </div>
+
+              <div class="addition__item addition__item-hidden item-1">
+                <div class="addition__img">
+                  <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                  <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                </div>
+                <div class="addition__subtitle">«распознает» и выводит токсины</div>
+                <p class="addition__text">«распознает» и выводит збыточные и вредные вещества</p>
+              </div>
+
+              <div class="addition__item addition__item-hidden item-1">
+                <div class="addition__img">
+                  <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                  <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                </div>
+                <div class="addition__subtitle">совместим с лекарственными препаратами</div>
+                <p class="addition__text">усиливает лечебный эффект за счет увеличения их биодоступности</p>
+              </div>
+
+
+              <div class="addition__button">
+                <a href="#" class="addition__but" data-click=".item-1">ещё</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="addition__content">
+            <h3 class="addition__title title">Характеристики</h3>
+            <div class="addition__items">
+
+              <div class="addition__item">
+                <div class="addition__img">
+                  <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                  <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                </div>
+                <div class="addition__subtitle">разработан в СССР</div>
+                <p class="addition__text">получен на основании результатов исследований и опытов, проведенных на базе
+                  закрытых институтов в Советском Союзе</p>
+              </div>
+
+              <div class="addition__item">
+                <div class="addition__img">
+                  <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                  <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                </div>
+                <div class="addition__subtitle">инновационный</div>
+                <p class="addition__text">обработан на нанотехнологичном борудовани, без применения химикатов</p>
+              </div>
+
+              <div class="addition__item addition__item-hidden item-2">
+                <div class="addition__img">
+                  <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                  <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                </div>
+                <div class="addition__subtitle">натуральный</div>
+                <p class="addition__text">изготовлен из экологически чистого природного сырья</p>
+              </div>
+
+
+              <div class="addition__button">
+                <a href="#" class="addition__but" data-click=".item-2">ещё</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="products__diatomea diatomea">
+        <div class="diatomea__wrap-top">
+
+          <div class="diatomea__description deskription-diatomea">
+            <div class="deskription-diatomea__texts">
+              <p class="deskription-diatomea__text">Диатомея – это древняя ископаемая каменная водоросль, состоящая из
+                Кремния до 85%.</p>
+              <p class="deskription-diatomea__text">КРЕМНИЙ – это строительный материал гибких структур. Он необходим
+                для
+                образования соединительной ткани, которой являются хрящи, сухожилия,
+                вены и артерии, слизистые оболочки, кожа, волосы, ногти и эндоскелет.</p>
+            </div>
+            <div class="deskription-diatomea__application">
+              <h3 class="deskription-diatomea__title title">Диапозон применения</h3>
+
+              <div class="addition__items-diatomea">
+
+                <div class="addition__item-diatomea">
+                  <div class="addition__img">
+                    <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                    <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                  </div>
+                  <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+                  <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+                </div>
+
+                <div class="addition__item-diatomea">
+                  <div class="addition__img">
+                    <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                    <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                  </div>
+                  <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+                  <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+                </div>
+
+                <div class="addition__item-diatomea">
+                  <div class="addition__img">
+                    <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                    <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                  </div>
+                  <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+                  <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+                </div>
+
+                <div class="addition__item-diatomea addition__item-hidden item-3">
+                  <div class="addition__img">
+                    <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                    <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                  </div>
+                  <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+                  <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+                </div>
+
+                <div class="addition__item-diatomea addition__item-hidden item-3">
+                  <div class="addition__img">
+                    <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                    <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                  </div>
+                  <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+                  <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+                </div>
+
+                <div class="addition__item-diatomea addition__item-hidden item-3">
+                  <div class="addition__img">
+                    <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+                    <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+                  </div>
+                  <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+                  <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+                </div>
+
+                <div class="addition__button">
+                  <a href="#" class="addition__but" data-click=".item-3">ещё</a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="diatomea__product product-diatomea">
+            <h3 class="product-diatomea__title title">Диатомея</h3>
+            <div class="product__img">
+              <img class="product__frame" src="img/page__products/frame.png" alt="Диатомея">
+              <img class="product__diatomea" src="img/page__products/1.png" alt="Диатомея">
+            </div>
+            <div class="product-diatomea__signature">Не является лекарственным средством, бадом.</div>
+            <a href="#" class="product__but but">ЗАКАЗАТЬ</a>
+          </div>
+        </div>
+
+
+        <div class="addition__items-two">
+          <div class="addition__item-diatomea-two addition__item-hidden item-3">
+            <div class="addition__img">
+              <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+              <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+            </div>
+            <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+            <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+          </div>
+
+          <div class="addition__item-diatomea-two addition__item-hidden item-3">
+            <div class="addition__img">
+              <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+              <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+            </div>
+            <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+            <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+          </div>
+
+          <div class="addition__item-diatomea-two addition__item-hidden item-3">
+            <div class="addition__img">
+              <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+              <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+            </div>
+            <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+            <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+          </div>
+
+          <div class="addition__item-diatomea-two addition__item-hidden item-3">
+            <div class="addition__img">
+              <img class="addition__img-frame" src="img/page__products/hexagon.png" alt="логотип">
+              <img class="addition__img-logo" src="img/page__products/logo6.png" alt="логотип">
+            </div>
+            <div class="addition__subtitle">мощный источник дополнительной энергии</div>
+            <p class="addition__text">увеличивает производство АТФ клетками организма</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="products__fertilizer fertilizer">
+
+        <div class="fertilizer__element element-fertilizer">
+          <h3 class="element-fertilizer__title title">Удобрение «Живая Земля»</h3>
+          <div class="product__img">
+            <img class="product__frame" src="img/page__products/frame.png" alt="Черный мед">
+            <img class="product__fertilizer" src="img/page__products/2.png" alt="Черный мед">
+          </div>
+          <a href="#" class="product__but but">ЗАКАЗАТЬ</a>
+          <div class="element-fertilizer__subtitle">Область применения</div>
+          <p class="element-fertilizer__text">Сельскохозяйственное производство - растениеводств; корневая и некорневая
+            подкормка всех видов сельскохозяйственных культур и декоративных растений,
+            как в открытых, так и закрытых грунтах;
+            предпосевная обработка семенного и посадочного материала (замачивания семян, клубней, луковиц; обмакивания
+            корней растений перед пикировкой и высадкой в грунт)</p>
+        </div>
+
+
+        <div class="fertilizer__description description-fertilizer">
+          <div class="description-fertilizer__texts">
+            <p class="description-fertilizer__text">Удобрение «Живая Земля» - комплексное жидкое органо-минеральное
+              удобрение на основе природного реликтового сырья - озёрного сапропеля с содержанием органического вещества
+              до 90%.
+            </p>
+            <p class="description-fertilizer__text">Внешний вид: вязкая жидкость тёмно-коричневого цвета без запаха или
+              со слабым аммиачным запахом</p>
+            <div class="description-fertilizer__subtitle">Состав удобрений:</div>
+            <p class="description-fertilizer__text">Гуминовые кислоты – не 20 г/л, менее реально 30-40 г/л <br>
+              Азот (N) – 120-130 г/л <br>
+              Фосфор (P2O5) – 40-60 г/л <br>
+              Калий (K2O) – 125-135 г/л <br>
+              Магний (MgO) - не менее 0,9 г/л <br>
+              Аминокислоты – треонин, метионин, лизин, цистин <br>
+              Микроэлементы – бор, марганец, цинк, медь, молибден, кобальт, железо – 0,5-2 г/л <br>
+              Витамины - А, С, В1, В2 широкий спектр полезных ископаемых, в т.ч. аммонифицирующие,
+              аминолические, педотрофы, уробактерии.<br>
+              Ферменты, катализирующие окислительные реакции и реакции гидролиза – каталаза и пероксидаза.
+            </p>
+
+            <div class="description-fertilizer__subtitle-two">Область применения</div>
+            <p class="description-fertilizer__text-two">Сельскохозяйственное производство - растениеводств; корневая и
+              некорневая
+              подкормка всех видов сельскохозяйственных культур и декоративных растений,
+              как в открытых, так и закрытых грунтах;
+              предпосевная обработка семенного и посадочного материала (замачивания семян, клубней, луковиц; обмакивания
+              корней растений перед пикировкой и высадкой в грунт)</p>
+
+
+
+          </div>
+          <div class="description-fertilizer__effectiveness">
+            <div class="description-fertilizer__effectiveness-title">Эффективность применения удобрения</div>
+            <ul class="description-fertilizer__list">
+              <li class="description-fertilizer__item">улучшается структура почвы;</li>
+              <li class="description-fertilizer__item"> ускоряются процессы компостирования;</li>
+              <li class="description-fertilizer__item"> почва обогащается гуматами, полезными почвенными
+                бактериями,макро- и микроэлементами;</li>
+              <li class="description-fertilizer__item"> стимулируется рост и развитие растений;</li>
+              <li class="description-fertilizer__item"> увеличивается урожайность растений;</li>
+              <li class="description-fertilizer__item description-fertilizer__item-hidden item-5"> повышается стойкость
+                растений к болезням, вредителям, неблагоприятным климатическим условиям (засуха, заморозки и т.д.);</li>
+              <li class="description-fertilizer__item description-fertilizer__item-hidden item-5">
+                уменьшаются нормы внесения минеральных удобрений при совместном с ними применении (как минимум на 30%);
+              </li>
+              <li class="description-fertilizer__item description-fertilizer__item-hidden item-5"> уменьшается
+                угнетающее воздействие пестицидов на растения и почву;</li>
+              <li class="description-fertilizer__item description-fertilizer__item-hidden item-5">улучшаются вкусовые
+                качества и питательная ценность продукции;</li>
+              <li class="description-fertilizer__item description-fertilizer__item-hidden item-5">увеличиваются сроки
+                хранения продукции.</li>
+            </ul>
+            <div class="addition__button description-fertilizer__button">
+              <a href="#" class="addition__but" data-click=".item-5">ещё</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="products__background ibg">
+      <img src="img/page__products/background.png" alt="background">
+    </div>
+    <img class="element-right" src="img/page__products/element-right.png" alt="logo">
+    <img class="logo-right" src="img/page__products/logo-right.png" alt="logo">
+    <img class="element-left" src="img/page__products/element-left.png" alt="logo">
+  </section>
+
+  <section class="page__become-a-partner become-a-partner">
+    <div class="become-a-partner__container">
+      <a href="#" class="become-a-partner__but but">СТАТЬ ПАРТНЁРОМ</a>
+      <div class="become-a-partner__img">
+        <img class="become-a-partner__background" src="img/page__products/become-a-partner.png" alt="Стать партнером">
+      </div>
+    </div>
+  </section>
+
+  <section class="page__documents documents">
+    <div class="documents__container container">
+      <h5 class="documents__title">ДОКУМЕНТЫ</h5>
+
+      <div class="swiper swiper-documents">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="swiper-slide__img">
+              <img src="img/page__documents/01.png" alt="Сертификат «Живая земля»">
+            </div>
+            <p class="swiper-slide__text">Сертификат «Живая земля»</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__img">
+              <img src="img/page__documents/02.png" alt="Свидетельство «Живая земля»">
+            </div>
+            <p class="swiper-slide__text">Свидетельство «Живая земля»</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__img">
+              <img src="img/page__documents/03.png" alt="Лист записи ЕГР «Живая земля»">
+            </div>
+            <p class="swiper-slide__text">Лист записи ЕГР «Живая земля»</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__img">
+              <img src="img/page__documents/03.png" alt="Лист записи ЕГР «Живая земля»">
+            </div>
+            <p class="swiper-slide__text">Лист записи ЕГР «Живая земля»</p>
+          </div>
+
+        </div>
+
+
+        <div class="swiper-arrow-prev-documents">
+          <img class="swiper-hexagon-left" src="img/page__documents/hexagon.png" alt="шестиугольник">
+        </div>
+        <div class="swiper-arrow-next-documents">
+          <img class="swiper-hexagon-right" src="img/page__documents/hexagon.png" alt="шестиугольник">
+        </div>
+
+      </div>
+    </div>
+    <img class="element-left-documents" src="img/page__documents/element-left.png" alt="декор">
+  </section>
+
+  <section class="page__news news">
+    <div class="news__container container">
+      <h5 class="news__title">НОВОСТИ</h5>
+      <div class="swiper swiper-news">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper swiper-wrapper-news">
+          <!-- Slides -->
+          <div class="swiper-slide swiper-slide-news">
+            <div class="swiper-slide-news__img">
+              <img src="img/page__news/01.png" alt="Сертификат «Живая земля»">
+            </div>
+            <p class="swiper-slide-news__date">12 января 2022</p>
+            <p class="swiper-slide-news__text">В г Уфа открылся новый офис компании по адресу
+              Балканская 19, офис 22. Приглашаем всех партнеров на презентацию компании в этот четверг в 19.00</p>
+            <p class="swiper-slide-news__text"> Приходите сами и приглашайте партнёров!</p>
+          </div>
+
+
+          <div class="swiper-slide swiper-slide-news">
+            <div class="swiper-slide-news__img">
+              <img src="img/page__news/02.png" alt="Сертификат «Живая земля»">
+            </div>
+            <p class="swiper-slide-news__date">12 января 2022</p>
+            <p class="swiper-slide-news__text">В г Уфа открылся новый офис компании по адресу
+              Балканская 19, офис 22. Приглашаем всех партнеров на презентацию компании в этот четверг в 19.00</p>
+            <p class="swiper-slide-news__text"> Приходите сами и приглашайте партнёров!</p>
+          </div>
+
+
+          <div class="swiper-slide swiper-slide-news">
+            <div class="swiper-slide-news__img">
+              <img src="img/page__news/01.png" alt="Сертификат «Живая земля»">
+            </div>
+            <p class="swiper-slide-news__date">12 января 2022</p>
+            <p class="swiper-slide-news__text">В г Уфа открылся новый офис компании по адресу
+              Балканская 19, офис 22. Приглашаем всех партнеров на презентацию компании в этот четверг в 19.00</p>
+            <p class="swiper-slide-news__text"> Приходите сами и приглашайте партнёров!</p>
+          </div>
+
+
+          <div class="swiper-slide swiper-slide-news">
+            <div class="swiper-slide-news__img">
+              <img src="img/page__news/02.png" alt="Сертификат «Живая земля»">
+            </div>
+            <p class="swiper-slide-news__date">12 января 2022</p>
+            <p class="swiper-slide-news__text">В г Уфа открылся новый офис компании по адресу
+              Балканская 19, офис 22. Приглашаем всех партнеров на презентацию компании в этот четверг в 19.00</p>
+            <p class="swiper-slide-news__text"> Приходите сами и приглашайте партнёров!</p>
+          </div>
+
+        </div>
+
+
+
+      </div>
+      <div class="swiper-arrow-prev-news">
+        <img class="swiper-hexagon-left-news" src="img/page__documents/hexagon.png" alt="шестиугольник">
+      </div>
+      <div class="swiper-arrow-next-news">
+        <img class="swiper-hexagon-right-news" src="img/page__documents/hexagon.png" alt="шестиугольник">
+      </div>
+    </div>
+    <img class="news-logo-right" src="img/page__news/logo-right.png" alt="логотип">
+  </section>
+
+  <section class="page__cooperation cooperation">
+    <div class="cooperation__container container">
+      <h5 class="cooperation__title title">СОТРУДНИЧЕСТВО</h5>
+      <div class="cooperation__content">
+        <div class="cooperation__form form-cooperation">
+          <form action="#" class="form-cooperation__form" name="main">
+            <p class="form-cooperation__text">Компания «Живая земля»
+              открыта к сотрудничеству! Оставьте Ваше предложение в форме ниже</p>
+            <p class="form-label">Имя</p>
+            <input type="text" name="formName" class="form-cooperation__name form-cooperation__field">
+            <p class="form-label">E-mail</p>
+            <input type="email" name="formEmail" class="form-cooperation__tel form-cooperation__field">
+            <p class="form-label">Телефон</p>
+            <input type="tel" name="formTel" class="form-cooperation__tel form-cooperation__field">
+            <p class="form-label">Ваше предложение</p>
+            <textarea name="formTextarea" class="form-cooperation__textarea form form-cooperation__field"></textarea>
+            <div class="error-cooperation"></div>
+            <button class="submit">ОТПРАВИТЬ</button>
+          </form>
+        </div>
+        <div class="cooperation__img">
+          <div class="cooperation__image">
+            <img src="img/page__cooperation/book.png" class="cooperation__book" alt="книга">
+            <img src="img/page__cooperation/element.png" class="cooperation__element" alt="декор">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page__contacts contacts">
+    <div class="contacts__container container">
+      <h5 class="contacts__title title">КОНТАКТЫ</h5>
+      <div class="contacts__content">
+        <div class="contacts__address">
+          <div class="contacts__img">
+            <div class="contacts__image-left">
+              <img class="contacts__image-left-element" src="img/page__contacts/element-left.png" alt="декор">
+              <img class="contacts__image-left-logo" src="img/page__contacts/logo-left.png" alt="декор">
+            </div>
+            <div class="contacts__image-bottom">
+              <img class="contacts__image-bottom-element" src="img/page__contacts/element-bottom.png" alt="декор">
+              <img class="contacts__image-bottom-logo" src="img/page__contacts/logo-bottom.png" alt="декор">
+            </div>
+            <div class="contacts__image-right">
+              <img class="contacts__image-right-element" src="img/page__contacts/element-right.png" alt="декор">
+              <p class="contacts__name">ООО «Живая Земля»</p>
+              <div class="contacts__address-text">Юридический адрес: Республика Башкортостан
+                г.Стерлитамак, 453103 Пр-т Ленина 47Б, офис 102</div>
+              <div class="contacts__email">
+                <span class="icon-email"></span>
+                <a href="#" class="contacts__email-text">koshelevapodit@gmail.com</a>
+              </div>
+              <img class="contacts__logo" src="img/page__contacts/logo-bottom.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="contacts__form form-contacts">
+          <form action="#" class="form-contacts__form" name="mainContactForm">
+            <p class="form-contacts__text">Остались вопросы? <br>
+              Заполните формы и мы свяжемся с Вами!</p>
+            <p class="form-label">Имя</p>
+            <input type="text" name="formContactsName" class="form-contacts__name form-cooperation__field">
+            <p class="form-label">E-mail</p>
+            <input type="email" name="formContactsEmail" class="form-contacts__tel form-cooperation__field">
+            <p class="form-label">Ваш вопрос</p>
+            <textarea name="formContactsTextarea" class="form-contacts__textarea form-cooperation__field"></textarea>
+            <div class="error-contacts"></div>
+            <button class="submit">ОТПРАВИТЬ</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page__bottom bottom">
+    <div class="bottom__container container">
+      <nav class="bottom__menu">
+        <ul class="bottom__list">
+          <li class="bottom__item"><a href="#" class="bottom__link menu__link" data-goto=".page__about">О компании</a></li>
+          <li class="bottom__item"><a href="#" class="bottom__link menu__link" data-goto=".page__products">Продукция</a></li>
+          <li class="bottom__item"><a href="#" class="bottom__link menu__link" data-goto=".page__documents">Документы</a></li>
+        </ul>
+        <ul class="bottom__list">
+          <li class="bottom__item"><a href="#" class="bottom__link menu__link" data-goto=".page__news">Новости</a></li>
+          <li class="bottom__item"><a href="#" class="bottom__link menu__link" data-goto=".page__cooperation">Сотрудничество</a>
+          </li>
+          <li class="bottom__atem"><a href="#" class="bottom__link menu__link" data-goto=".page__contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="bottom__main">
+        <div class="bottom__logo">
+          <img src="img/page__bottom/logo.png" alt="логотип">
+        </div>
+        <div class="bottom__name">«Живая земля»
+        </div>
+      </div>
+      <div class="bottom__sochial">
+        <div class="bottom__sochial-title">МЫ В СОЦ, СЕТЯХ</div>
+        <div class="bottom__sochial-links">
+          <a href="#" class="bottom__sochial-link icon-instagram"></a>
+          <a href="#" class="bottom__sochial-link icon-vk"></a>
+        </div>
+      </div>
+      <div class="bottom__but but">СТАТЬ ПАРТНЕРОМ</div>
+    </div>
+    <div class="bottom__backgroung ibg">
+      <img src="img/page__bottom/background.jpg" alt="фон">
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__item">
+      <a href="#" class="footer__link">Copyright © 2021  Все права защищены</a>
+    </div>
+    <div class="footer__item">
+      <a href="#" class="footer__link">Политика конфедициальности</a>
+    </div>
+  </div>
+</footer>  </div>
+
+ <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
