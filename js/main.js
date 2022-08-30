@@ -251,16 +251,21 @@ mainForm.addEventListener('submit', function (event) {
 
   if (name == "" || tel == "" || email == "" || textarea == "") {
     file = "Заполните все поля";
-  } else if (name.length <= 2) {
+  }
+  if (name.length <= 2) {
     file = "Введите корректное имя";
   }
 
-  if (em == '') {
+  if (em == "") {
     file = "Введите правильный email";
   }
 
   if (file != "") {
     fError.innerHTML = file;
+  }
+
+  else {
+    window.location.reload();
   }
 });
 
@@ -293,6 +298,8 @@ mainContactForm.addEventListener('submit', function (event) {
 
   if (fileContacts != "") {
     errorContacts.innerHTML = fileContacts;
+  } else {
+    window.location.reload();
   }
 });
 
