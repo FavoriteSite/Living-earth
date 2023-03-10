@@ -333,7 +333,7 @@ if (popupCloseIcon.length > 0) {
   for (let i = 0; i < popupCloseIcon.length; i++) {
     const el = popupCloseIcon[i];
     el.addEventListener("click", function (e) {
-      popupCloseIcon(el.closest('.popup'));
+      popupClose(el.closest('.popup'));
       e.preventDefault();
     });
   }
