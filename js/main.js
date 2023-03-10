@@ -319,7 +319,7 @@ if (popupLinks.length > 0) {
   for (let i = 0; i < popupLinks.length; i++) {
     const popupLink = popupLinks[i];
     popupLink.addEventListener("click", function (e) {
-      const popupName = popupLink.getAttribute('href').replace('#', '');
+      const popupName = popupLink.getAttribute('data-record').replace('#', '');
       const curentPopup = document.getElementById(popupName);
       popupOpen(curentPopup);
       e.preventDefault();
